@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_tworca"
+        android:title="Twórca" />
+    <item android:id="@+id/menu_wyjscie" android:title="Wyjście" />
+    <item android:id="@+id/menu_kolorystyka" android:title="Kolorystyka">
+        <menu>
+            <item android:id="@+id/kolor_czarno_biale" android:title="Czarno-biała" />
+            <item android:id="@+id/kolor_czerwono_zolte" android:title="Czerwono-żółta" />
+        </menu>
+    </item>
+</menu>
